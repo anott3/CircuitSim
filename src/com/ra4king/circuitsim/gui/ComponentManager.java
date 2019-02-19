@@ -25,6 +25,7 @@ import com.ra4king.circuitsim.gui.peers.gates.XnorGatePeer;
 import com.ra4king.circuitsim.gui.peers.gates.XorGatePeer;
 import com.ra4king.circuitsim.gui.peers.io.Button;
 import com.ra4king.circuitsim.gui.peers.io.HexDisplay;
+import com.ra4king.circuitsim.gui.peers.io.KeyboardPeer;
 import com.ra4king.circuitsim.gui.peers.io.LED;
 import com.ra4king.circuitsim.gui.peers.io.LEDMatrix;
 import com.ra4king.circuitsim.gui.peers.memory.DFlipFlopPeer;
@@ -225,6 +226,7 @@ public class ComponentManager {
 		register(RandomGeneratorPeer.class);
 		
 		register(Button.class);
+		register(KeyboardPeer.class);
 		register(LED.class);
 		register(LEDMatrix.class);
 		register(HexDisplay.class);
